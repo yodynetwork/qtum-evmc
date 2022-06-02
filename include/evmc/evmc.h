@@ -299,7 +299,7 @@ enum evmc_status_code
     /** The caller does not have enough funds for value transfer. */
     EVMC_INSUFFICIENT_BALANCE = 17,
 
-    /** Qtum specific: create with value is not allowed. */
+    /** Yody specific: create with value is not allowed. */
     EVMC_CREATE_WITH_VALUE = 1000,
 
     /** EVM implementation generic internal error. */
